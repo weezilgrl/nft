@@ -1,0 +1,545 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.5em;
+    margin:0;
+    padding:0;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+article img {
+     max-width: 100%;
+}
+
+/* =============== Initializr Styles ================================================== */
+
+body {
+    font: 14px/24px verdana, arial, sans-serif;
+}
+
+aside {
+    font: 14px/24px verdana, arial, sans-serif;
+}
+
+.wrapper {
+    margin: 0 35px;
+}
+
+/* =================== ALL: Tufts Theme =============================================== */
+
+						
+
+
+			
+			
+@font-face {
+	font-family: 'DINreg';
+	src: url('http://fonts.tufts.edu/DIN/DINWeb.eot'); /* IE9 Compat Modes */
+	src: url('http://fonts.tufts.edu/DIN/DINWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://fonts.tufts.edu/DIN/DINWeb.woff') format('woff'); /* Modern Browsers */
+	}	
+	
+@font-face {
+	font-family: 'DINmed';
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Medium.eot'); /* IE9 Compat Modes */
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://fonts.tufts.edu/DIN/DINWeb-Medium.woff') format('woff'); /* Modern Browsers */
+	}			
+	
+@font-face {
+	font-family: 'DINbold';
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Bold.eot'); /* IE9 Compat Modes */
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://fonts.tufts.edu/DIN/DINWeb-Bold.woff') format('woff'); /* Modern Browsers */
+	}					
+				
+@font-face {
+	font-family: 'DINlight';
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Light.eot'); /* IE9 Compat Modes */
+	src: url('http://fonts.tufts.edu/DIN/DINWeb-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('http://fonts.tufts.edu/DIN/DINWeb-Light.woff') format('woff'); /* Modern Browsers */
+	}
+	
+/* ============== Containers ============== */	
+			
+
+#container {
+min-width: 960px;
+min-height:100%;
+position:relative;
+padding-bottom: 200px;
+}
+
+header {
+height: 105px;
+padding: 20px 0 0 0;
+}
+
+
+.logotype {
+margin-top: 4px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-right: 260px; /*Set right margin to rightColumnWidth*/
+padding: 10px 35px 20px 35px;
+}
+
+#rightcolumn{
+float: right;
+width: 225px; /*Width of left column*/
+margin-left: -100%;
+margin-top: 24px;
+margin-bottom: 24px;
+padding: 20px 35px;
+border-left: 1px solid #A7A9AA;
+}
+
+footer {
+clear: both;
+float: left;
+background-color: #6d6f72;
+color: white;
+font-size: 13px;
+padding: 0 35px;
+width: 100%;
+}
+
+
+footer a{
+color: white;
+border: none;
+text-decoration: underline;
+}
+
+footer h5 {
+font-family: DINmed;
+font-size: 16px;
+color: white;
+}
+
+footer ul {
+width: 250px;
+}
+
+footer li {
+font-family: verdana, arial, sans-serif;
+font-size: 13px;
+list-style-type: none;
+}
+
+#tufts_footer {
+margin-right: 40px;
+}
+
+
+#footleft {
+float: left;
+height: 150px;
+width: 175px;
+padding: 18px 0;
+}
+
+#more_footleft {
+float: left;
+padding: 24px 0;
+}
+
+#more_footleft h5 {
+margin: 0;
+}
+
+#footright {
+float: right;
+padding: 24px 35px 24px 0;
+width: 300px;
+text-align: right;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+
+
+/* ============== Page Elements ============== */
+
+img[title="Tufts University"] {
+float: left;
+}
+
+#quicklinks {
+margin: 0px 0 0 75px;
+font-size: .85em;
+float: left;
+}
+
+#contact {
+margin: 0px 0 0 75px;
+font-size: .85em;
+float: left;
+}
+
+#search {
+float: right;
+width: 240px;
+}
+
+#search_login {
+float: right;
+width: 350px;
+margin-top: 12px;
+}
+
+#search_login a{
+font-family: DINreg;
+margin-left: 5px;
+}
+
+#searchfield, #loginfield {
+height: 23px;
+}
+
+#loginfield {
+width: 180px;
+line-height: 23px;
+padding: 0 4px;
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+border: 1px solid #7e8083;
+color: #333333;
+}
+
+#searchfield {
+width: 150px;
+height: 23px;
+padding: 0 4px;
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+border: 1px solid #7e8083;
+color: #333333;
+}
+
+#login {
+margin-bottom: 20px;
+}
+
+#search_login span {
+float: left;
+font-family: DINreg;
+margin-right: 10px;
+color: #333333;
+}
+
+input {
+color: #525356;
+font-size: 13px;
+}
+
+#login-button, #search-button {
+padding-top: 2px;
+height: 24px;
+font-weight: bold;
+margin-left: 6px;
+background-color: #f1f1f2;
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+border: 1px solid #7e8083;
+display: inline-block;
+}
+
+#login-button:hover, #search-button:hover {
+background-color: #DBDBDB;
+}
+
+
+/* ============== Links ============== */
+
+a {
+color: #3172ae;
+text-decoration: underline;
+}
+
+
+
+a:focus, #login-button:focus, #search-button:focus {
+border: 1px dotted #3172AE;
+}
+
+
+
+/* ============== Typography ============== */
+
+
+.title {
+font-family: DINlight;
+font-size: 3em;
+color: #3172ae;
+font-weight: normal;
+margin-bottom: -6px;
+margin-top: 18px;
+}
+
+.description {
+font-family: DINmed;
+ font-weight: normal;
+color: gray;
+font-size: 18px;
+}
+
+
+h1,h2,h3,h4,h5 {
+font-family: DINmed;
+font-weight: normal;
+color: #a85114;
+}
+
+h3 {
+font-family: DINreg;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30px 0 -12px 0;
+color: #5b5a5a;
+}
+
+
+
+footer h4 {
+font-family: DINreg;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+.main h2,.main h4,.main h5 {
+margin: 24px 0 0 0;
+}
+
+
+
+
+/* ============== MOBILE: Menu ============== */
+
+
+
+nav {
+background-color: #3172AE;
+	-webkit-box-shadow: 0 5px 5px #dcddde;
+	-moz-box-shadow: 0 5px 5px #dcddde;
+	box-shadow: 0 5px 5px #dcddde;
+}
+
+nav ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 1026px;
+	line-height: 45px;
+	height: 40px;
+}
+
+nav ul li {
+float: left;
+}
+
+nav a {
+	font-family: DINmed;
+	font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 22px;
+    text-align: center;
+}
+
+nav#suggestednav a {
+	font-size: 15px;
+    font-family: Rockwell, "Rockwell STD";
+    font-family: DINmed;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
+nav a:hover {
+    color: white;
+}
+
+/* ============== MOBILE: Main ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: #252525;
+    padding: 10px 5% 15px;
+}
+
+
+/* =============== ALL: IE Fixes =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+        float: left;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
